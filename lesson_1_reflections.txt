@@ -1,0 +1,17 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Because it compares the first and the second file and outputs the lines where there are differences.  For example, when a line was deleted from the original file, or changed, or a new line was added.  In this way you can focus on the code that changed as a potential source of an error.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+First, you dont have to have multiple files of the same project. It is more efficient to look under one file thant multiple. Second, you can always go back and re-use code that you might have deleted. Third, you can use an older version to branch out and try something new (might or might not work)
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros. You have control over when to commit and you can make your own judgement as to the commit frequency.
+Cons. You computer may crash before the commit is made. You might forget to make a commit and later on have trouble finding an error.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+I think it is more cumbersome to treat each file individually since all files are needed for the project to run correctly.  By treating everything as a unit, you do not have to track the version of each individual file and how the relationship among them.
+How can you use the commands git log and git diff to view the history of files?
+Git Log will keep a log of all the versions saved of the set of files.
+Git Diff will allow you to compare two different versions of the set of files and see what changed between them.
+How might using version control make you more confident to make changes that could break something?
+Because you can always go back to a previos version of the code that was working properly. Plus you can compare the version of the file that broke the code to the previous one and see what changed.
+Now that you have your workspace set up, what do you want to try using Git for?
+Not sure.
+
