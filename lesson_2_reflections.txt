@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+A hidden .git file gets created in the directory.  You do it so that you can begin tracking the changes made to the files in that directory.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area shows the file that are about to get committed.  In order to add a file to the staging are the command git add "File name" is used.
