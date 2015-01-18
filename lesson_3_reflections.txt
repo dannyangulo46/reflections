@@ -2,3 +2,9 @@ When would you create a remote repository rathen just keeping it local in your c
 Because I might want to work on the project from different computer and the remote repository will help to keep both computers in sync.  Also, to have a backup of your project in case your computer crashes.  Another reason would be when several people are working on the project.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Because other people may be contributing to the project and you are at a stage in your computer where you are not ready to pull in additional files or changes to existing ones.
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork. Copies a repository in Github into another github account
+Clone. Copies a repository from a Github account into a local repository. You can also copy a local repository into another local repository.
+Branch.  Add another node to the tree of commits.
+
+
